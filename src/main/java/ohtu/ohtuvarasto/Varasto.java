@@ -30,7 +30,7 @@ public class Varasto {
         }
     }
 
-    public void Varastotil(double tilavuus, double alkuSaldo) { // kuormitetaan
+    public void varastotil(double tilavuus, double alkuSaldo) { // kuormitetaan
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
         } else // virheellinen, nollataan
